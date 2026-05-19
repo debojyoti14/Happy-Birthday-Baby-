@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Happy Birthday Baby❤️😘</title>
+	<meta charset="UTF-8" />
+	<meta name="description" content="Happy Birthday Xola">
+	<meta name="robots" content="index, follow" />
+	<link rel="author" href="https://plus.google.com/u/1/+AyushSharma1/" />
+	<meta name="keywords" content="Birthday, Happy">
+	<meta property="og:type" content="E-Greeting" />
+	<meta property="og:image" content="favicon.ico" />
+	<meta property="og:description" content="Wish you a very Happy Birthday">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./CSS/stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="./CSS/loading.css">
+	<link href='http://fonts.googleapis.com/css?family=Signika' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="./CSS/nicepage.css" media="screen">
+	<link rel="stylesheet" href="./CSS/Page-2.css" media="screen">
+	<meta name="generator" content="Nicepage 3.25.5, nicepage.com">
+
+	<link rel="stylesheet/less" href="./cake.less">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.1.0/less.min.js"></script>
+	<style>
+		#b2 { margin-left: -3vw !important; } 
+		#b3 { margin-left: -1.5vw !important; } 
+		#b5 { margin-left: 1.5vw !important; }  
+		#b6 { margin-left: 3vw !important; }  
+		
+		.hanging-pic {
+			position: absolute;
+			top: 140px; 
+			left: 50%;
+			transform: translateX(-50%);
+			width: 122px; 
+			height: 122px; 
+			object-fit: cover; 
+			border: 3px solid white;
+			border-radius: 4px;
+			box-shadow: 0px 4px 6px rgba(0,0,0,0.3);
+			opacity: 1 !important; /* Makes photos visible from the very start! */
+		}
+		
+		/* Fix the message text position and centering */
+		.message {
+			margin-top: 20px !important; /* <-- CHANGED FROM 350px: Keeps it tight and flexible */
+			display: none;
+		}
+		
+		.message p {
+			text-align: center !important; 
+			width: 100% !important;
+		}
+
+		/* BULLETPROOF CAKE CSS */
+		/* 1. Reset row alignment to absolute center */
+		.cake-cover {
+			display: block !important;
+			position: relative !important;
+			z-index: 9999 !important;
+			min-height: 480px !important; 
+			margin-top: 50px !important;
+			width: 100% !important;
+			text-align: center !important; /* Centers inline block children */
+		}
+
+		/* 2. Anchor the main cake container cleanly on the screen's center axis */
+		.cake {
+			display: none; 
+			visibility: visible !important;
+			opacity: 1 !important;
+			position: absolute !important;
+			left: 50% !important;
+			top: 220px !important; 
+			transform: translateX(-50%) !important; /* Perfect mathematical centering */
+			width: 300px !important;  
+			height: 300px !important; 
+			z-index: 9999 !important;
+		}
+
+		/* 3. Center the chocolate sponge layer within the cake frame */
+		.bizcocho {
+			display: block !important;
+			visibility: visible !important;
+			opacity: 1 !important;
+			width: 150px !important;
+			height: 100px !important;
+			background: #6d4c41 !important; 
+			border-radius: 0 0 10px 10px !important;
+			position: absolute !important;
+			bottom: 0 !important;
+			left: 50% !important;
+			transform: translateX(-50%) !important; /* Centers inside the 300px container */
+		}
+
+		/* 4. Center the frosting/cream layer within the cake frame */
+		.cobertura {
+			display: block !important;
+			visibility: visible !important;
+			opacity: 1 !important;
+			width: 160px !important;
+			height: 45px !important;
+			background: #eceff1 !important; 
+			border-radius: 10px 10px 0 0 !important;
+			position: absolute !important;
+			bottom: 100px !important;
+			left: 50% !important;
+			transform: translateX(-50%) !important; /* Centers inside the 300px container */
+			z-index: 2 !important;
+		}
+
+		/* 5. Center the white candle element directly in the middle */
+		.velas {
+			display: block !important;
+			visibility: visible !important;
+			opacity: 1 !important;
+			position: absolute !important;
+			bottom: 145px !important;
+			left: 50% !important;
+			transform: translateX(-50%) !important; /* Centers inside the 300px container */
+			width: 15px !important; 
+			height: 50px !important;
+			background: #ffffff !important;
+			z-index: 3 !important;
+		}
+
+		/* 6. Lock the candle flame directly to the top edge of the centered candle */
+		.fuego {
+			display: none; 
+			visibility: visible !important;
+			opacity: 1 !important;
+			width: 15px !important;
+			height: 25px !important;
+			border-radius: 80% 80% 55% 55% / 100% 100% 65% 65% !important;
+			background: #ff9100 !important;
+			box-shadow: 0 0 10px #ff3d00, 0 0 20px #ff9100 !important;
+			position: absolute !important;
+			top: -30px !important;
+			left: 50% !important;
+			transform: translateX(-50%) !important; /* Centers precisely on the candle tip */
+			z-index: 9999 !important;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="loading"></div>
+	<audio class="song" controls loop>
+		<source src="./Audio/hbd.mp3">
+		</source>
+		Your browser isn't invited for super fun audio time.
+	</audio>
+	<div class="balloons text-center" id="b1" style="opacity: 0; visibility: hidden;">
+		<h2></h2>
+	</div>
+	
+	<div class="balloons text-center" id="b2">
+		<h2 style="color:#F2B300;">S</h2>
+		<img src="./Images/pic1.jpg" class="hanging-pic">
+	</div>
+	
+	<div class="balloons text-center" id="b3">
+		<h2 style="color:#0719D4;">R</h2>
+		<img src="./Images/pic2.jpg" class="hanging-pic">
+	</div>
+	
+	<div class="balloons text-center" id="b4">
+		<h2 style="color:#D14D39;">I</h2>
+		<img src="./Images/pic3.jpg" class="hanging-pic">
+	</div>
+	
+	<div class="balloons text-center" id="b5">
+		<h2 style="color:#8FAD00;">J</h2>
+		<img src="./Images/pic4.jpg" class="hanging-pic">
+	</div>
+	
+	<div class="balloons text-center" id="b6">
+		<h2 style="color:#8377E4;">A</h2>
+		<img src="./Images/pic5.jpg" class="hanging-pic">
+	</div>
+	
+	<div class="balloons text-center" id="b7" style="opacity: 0; visibility: hidden;">
+		<h2></h2>
+	</div>
+
+	<img src="./Images/Balloon-Border.png" width="100%" class="balloon-border">
+
+
+	<div class="container">
+
+		<div class="row">
+			<div class="col-md-2 col-xs-2 bulb-holder">
+				<div class="bulb" id="bulb_yellow"></div>
+			</div>
+			<div class="col-md-2 col-xs-2 bulb-holder">
+				<div class="bulb" id="bulb_red"></div>
+			</div>
+			<div class="col-md-2 col-xs-2 bulb-holder">
+				<div class="bulb" id="bulb_blue"></div>
+			</div>
+			<div class="col-md-2 col-xs-2 bulb-holder">
+				<div class="bulb" id="bulb_green"></div>
+			</div>
+			<div class="col-md-2 col-xs-2 bulb-holder">
+				<div class="bulb" id="bulb_pink"></div>
+			</div>
+			<div class="col-md-2 col-xs-2 bulb-holder">
+				<div class="bulb" id="bulb_orange"></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<img src="./Images/banner.png" class="bannar">
+			</div>
+		</div>
+		<div class="row cake-cover">
+			<div class="col-md-12 text-center">
+				<div class="cake">
+					<div class="velas">
+						<div class="fuego"></div>
+					</div>
+					<div class="cobertura"></div>
+					<div class="bizcocho"></div>
+				</div>
+			</div>
+		</div>
+		<div class="row message">
+			<div class="col-md-12">
+				<p>Today is your 25th bithday baby</p>
+				<p>The 1st birthday after we met</p>
+				<p>Some time it feels unreal..time passes by superfast</p>
+				<p>I know last year was very difficult for you</p>
+				<p>I hope the journey from 25 th 26th wll be smoother</p>
+				<p>Happier..</p>
+				<p>I wish you all the very best</p>
+				<p>May your life be at ease</p>
+				<p>May all your wishes,ambitions come true..</p>
+				<p>You enterted in my life like a shooting star and fill it with joy</p>
+				<p>thanks for being there</p>
+				<p>thanks for the friendship we made</p>
+				<p>thanks for everything</p>
+				<p>cant imagine my life without you..</p>
+				<p>No matter how difficult the journey will be..</p>
+				<p>You will always find be beside you..I promise</p>
+				<p>lastly...</p>
+				<p>I'd like to wish you one more time</p>
+				<p>a very happy birthday Baby</p>
+				<p>I love you so soooooo much</p>
+				<p>muah muah muahhhhhhh</p>
+			</div>
+		</div>
+		<div class="u-body">
+			<section class="u-clearfix u-grey-5 u-valign-middle-lg u-valign-middle-md u-valign-middle-xl u-section-1"
+				id="carousel_e355">
+				<div
+					class="u-expanded-height-sm u-expanded-height-xs u-palette-3-base u-shape u-shape-rectangle u-shape-1">
+				</div>
+				<div class="u-clearfix u-layout-wrap u-layout-wrap-1">
+					<div class="u-gutter-0 u-layout">
+						<div class="u-layout-row">
+							<div class="u-container-style u-layout-cell u-left-cell u-size-36 u-layout-cell-1">
+								<div class="u-container-layout u-container-layout-1">
+									<div class="u-gradient u-shape u-shape-rectangle u-shape-2"></div>
+									<div class="u-border-16 u-border-white u-shape u-shape-rectangle u-shape-3"></div>
+									<img class="u-image u-image-1" src="./Images/IMG_20210921_030807_01.jpg"
+										data-image-width="720" data-image-height="1080">
+								</div>
+							</div>
+							<div
+								class="u-align-left u-container-style u-layout-cell u-right-cell u-size-24 u-layout-cell-2">
+								<div class="u-container-layout u-container-layout-2">
+									<h1 class="u-custom-font u-font-montserrat u-text u-text-body-alt-color u-text-1">
+										Happy Birthday<span style="font-size: 0.75rem;"></span>
+										<br>
+										<span style="font-weight: 700;">
+											<span style="font-size: 0.875rem;"></span>Srija
+										</span>
+										<br>
+										<span style="font-size: 1.2rem;">Many many happy returns of the day baby.
+										I wish every day in your life become more special and even brighter than the sun. 
+										Deface all the negetivity , all the darkness around you with 
+										your smile and love...... Always be full kawai. And one thing that I want to say 
+										that if you need me, I'm with you, and if you don't need , I'm still with you ..... Thank You For EveryThing :) :) 
+									 </span>
+									 <br>
+									 <span style="font-size: 1rem; padding-left: 180px;">~ Debojyoti Mazumder &#x1F60a;</span>
+									</h1>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		</div>
+
+		<div class="navbar navbar-fixed-bottom">
+			<div class="row">
+				<div class="col-md-6 text-center col-md-offset-3">
+					<button class="btn btn-primary" id="turn_on">Turn On Lights</button>
+					<button class="btn btn-primary" id="play">Play Music</button>
+					<button class="btn btn-primary" id="bannar_coming">Let's Decorate</button>
+					<button class="btn btn-primary" id="balloons_flying">Balloons Lagano hok</button>
+					<button class="btn btn-primary" id="cake_fadein">Most Delicious Cake Ever</button>
+					<button class="btn btn-primary" id="light_candle">Fooo de</button>
+					<button class="btn btn-primary" id="wish_message">Happy Birthday</button>
+					<button class="btn btn-primary" id="story">A mesage for you</button>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+<script src="./JS/effect.js"></script>
+<script>
+	(function (i, s, o, g, r, a, m) {
+		i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+			(i[r].q = i[r].q || []).push(arguments)
+		}, i[r].l = 1 * new Date(); a = s.createElement(o),
+			m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+	})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+	ga('create', 'UA-58229732-1', 'auto');
+	ga('send', 'pageview');
+
+</script>
+
+</html>
